@@ -28,7 +28,7 @@ CREATE TABLE  D_DEPARTMENT_ORA03
 );
 /
 CREATE TABLE F_SALARY_ORA03(
-    SEQ           			NUMBER(10),
+    SEQ                     NUMBER(10) ,
     YEAR_CD			        NUMBER(4),
     MONTH_CD			    NUMBER(6),
   	EMPLOYEE_CD             NUMBER(6),
@@ -42,4 +42,3 @@ CREATE TABLE F_SALARY_ORA03(
   	ETL_DATE           		TIMESTAMP(6),
   	ETL_LAST_UPDATE    		TIMESTAMP(6)
 );
-/
